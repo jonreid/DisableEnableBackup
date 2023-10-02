@@ -8,16 +8,18 @@ It will open the vi editor. Enter and save the following line, specifying your u
 
 This will allow these commands to execute with privileged access but without prompting you for your password.
 
-Enable full disk access for both apps, as shown in the image.
+Enable full disk access for both apps, as shown in this image:
+
+![](full-disk-access.png)
 
 When you run the apps, they execute the following commands and terminate.
 
-DisableBackup:
+*DisableBackup:*
 
 - tmutil stopbackup
 - tmutil disable
 
-EnableBackup:
+*EnableBackup:*
 
 - tmutil enable
 
