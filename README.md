@@ -30,6 +30,6 @@ This will allow these commands to execute with privileged access but without pro
 
 Enable full disk access for both apps, as shown in this image:
 
-![](full-disk-access.png)
+![](images/full-disk-access.png)
 
 Confirm whether your set-up is successful by going to Time Machine in your System Settings/Preferences and observing the checkbox as you run these apps.
