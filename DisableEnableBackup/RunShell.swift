@@ -1,5 +1,5 @@
 // EnableDisableBackup by Jon Reid, https://qualitycoding.org
-// Copyright 2023 Jonathan M. Reid. https://github.com/jonreid/EnableDisableBackup/blob/main/LICENSE.txt
+// Copyright 2023 Jonathan M. Reid. https://github.com/jonreid/DisableEnableBackup/blob/main/LICENSE.txt
 // SPDX-License-Identifier: MIT
 
 import Foundation
