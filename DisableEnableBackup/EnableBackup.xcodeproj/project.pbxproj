@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5F30732ACBC0D500C97EE6 /* RunShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F30722ACBC0D500C97EE6 /* RunShell.swift */; };
 		483105AD2A5D09BC00B5F6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483105AC2A5D09BC00B5F6E1 /* Assets.xcassets */; };
 		483105B82A5D0A0700B5F6E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483105B72A5D0A0700B5F6E1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5F30722ACBC0D500C97EE6 /* RunShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunShell.swift; sourceTree = "<group>"; };
 		483105A72A5D09BC00B5F6E1 /* EnableBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnableBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483105AC2A5D09BC00B5F6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483105B12A5D09BC00B5F6E1 /* EnableBackup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnableBackup.entitlements; sourceTree = "<group>"; };
@@ -32,6 +34,7 @@
 		4831059E2A5D09BC00B5F6E1 = {
 			isa = PBXGroup;
 			children = (
+				0F5F30722ACBC0D500C97EE6 /* RunShell.swift */,
 				483105A92A5D09BC00B5F6E1 /* EnableBackup */,
 				483105A82A5D09BC00B5F6E1 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5F30732ACBC0D500C97EE6 /* RunShell.swift in Sources */,
 				483105B82A5D0A0700B5F6E1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

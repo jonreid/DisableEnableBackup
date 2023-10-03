@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5F30752ACBC10900C97EE6 /* RunShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F30742ACBC10900C97EE6 /* RunShell.swift */; };
 		4899C8CD2A5B11CA001FEE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4899C8CC2A5B11CA001FEE3B /* Assets.xcassets */; };
 		4899C8D82A5B173E001FEE3B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4899C8D72A5B173E001FEE3B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5F30742ACBC10900C97EE6 /* RunShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunShell.swift; sourceTree = "<group>"; };
 		4899C8C72A5B11C9001FEE3B /* DisableBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisableBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4899C8CC2A5B11CA001FEE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4899C8D12A5B11CA001FEE3B /* DisableBackup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisableBackup.entitlements; sourceTree = "<group>"; };
@@ -32,6 +34,7 @@
 		4899C8BE2A5B11C9001FEE3B = {
 			isa = PBXGroup;
 			children = (
+				0F5F30742ACBC10900C97EE6 /* RunShell.swift */,
 				4899C8C92A5B11C9001FEE3B /* DisableBackup */,
 				4899C8C82A5B11C9001FEE3B /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5F30752ACBC10900C97EE6 /* RunShell.swift in Sources */,
 				4899C8D82A5B173E001FEE3B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +255,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = DisableBackup/DisableBackup.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -282,8 +287,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = DisableBackup/DisableBackup.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
