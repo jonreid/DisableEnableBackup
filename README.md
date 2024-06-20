@@ -32,4 +32,4 @@ Enable full disk access for both apps, as shown in this image:
 
 ![](images/full-disk-access.png)
 
-Confirm whether your set-up is successful by going to Time Machine in your System Settings/Preferences and observing the checkbox as you run these apps.
+Confirm whether your setup is successful by going to System Settings > Time Machine, clicking the Options button, and observing the "Backup Frequency" setting.
