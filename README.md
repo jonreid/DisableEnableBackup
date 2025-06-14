@@ -1,7 +1,5 @@
 # Disable/Enable Backup
 
-[![Mastodon Follow](https://img.shields.io/mastodon/follow/109765011064804734?domain=https%3A%2F%2Fiosdev.space)](https://iosdev.space/@qcoding)
-
 These apps disable and enable Time Machine backups.
 When you run the apps, they execute the following commands and terminate.
 
